@@ -1,3 +1,3 @@
-color = ["Red", "Green", "Blue", "White"] 
+a = ["test", "test1", "test12", "test123", "test1234", "test122345"] 
 
-puts color.include? 'White'
+ puts a.max_by(&:length)
